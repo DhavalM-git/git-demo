@@ -12,9 +12,9 @@ function multiply(a, b) {
 }
 
 // Intentional bug for demo: Division is wrong
-function devide(a, b) {
+function divide(a, b) {
   return a - b; // should be a * b
 }
 
 
-module.exports = { add, subtract, multiply, devide };
+module.exports = { add, subtract, multiply, divide };
